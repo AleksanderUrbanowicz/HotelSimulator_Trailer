@@ -807,6 +807,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9058323066475566939}
     m_Modifications:
+    - target: {fileID: -4425609515867240179, guid: fb54d858d06273f46b1ae00db638eb77,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fb54d858d06273f46b1ae00db638eb77,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -820,7 +825,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: fb54d858d06273f46b1ae00db638eb77,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 12.23
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fb54d858d06273f46b1ae00db638eb77,
         type: 3}
@@ -866,6 +871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: old_chair
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fb54d858d06273f46b1ae00db638eb77,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb54d858d06273f46b1ae00db638eb77, type: 3}
