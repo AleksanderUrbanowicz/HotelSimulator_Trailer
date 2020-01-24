@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
-namespace Assets.Elenesski.Camera.Utilities {
+namespace Assets.Elenesski.Camera.Utilities
+{
 
     public class GenericMoveCamera : MonoBehaviour {
 
