@@ -1,23 +1,47 @@
 fileFormatVersion: 2
 guid: dd0a31dafe6d7e84f8c83053c5ce414a
-timeCreated: 1509407437
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Vent_Blades
-    100004: Vent_Main
-    400000: //RootNode
-    400002: Vent_Blades
-    400004: Vent_Main
-    2300000: Vent_Blades
-    2300002: Vent_Main
-    3300000: Vent_Blades
-    3300002: Vent_Main
-    4300000: Vent_Blades
-    4300002: Vent_Main
-    9500000: //RootNode
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Vent_Blades
+  - first:
+      1: 100004
+    second: Vent_Main
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Vent_Blades
+  - first:
+      4: 400004
+    second: Vent_Main
+  - first:
+      23: 2300000
+    second: Vent_Blades
+  - first:
+      23: 2300002
+    second: Vent_Main
+  - first:
+      33: 3300000
+    second: Vent_Blades
+  - first:
+      33: 3300002
+    second: Vent_Main
+  - first:
+      43: 4300000
+    second: Vent_Blades
+  - first:
+      43: 4300002
+    second: Vent_Main
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -42,6 +66,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -56,16 +81,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -76,10 +108,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -89,8 +125,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
