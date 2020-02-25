@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007718535}
   m_LocalRotation: {x: -0.3055308, y: 0.6376919, z: 0.3055308, w: 0.6376919}
-  m_LocalPosition: {x: -0.222, y: -0.103, z: -0}
+  m_LocalPosition: {x: -1.189, y: -0.86, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4085942079488946}
@@ -743,7 +743,7 @@ Animator:
   m_GameObject: {fileID: 1355485213261138}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9ea80fd99d421c5428242a9e9c0c62e9, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f81cd344430a434c96b18e14736b494, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1746,11 +1746,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: hammer
-      objectReference: {fileID: 0}
-    - target: {fileID: 3229476688523771962, guid: a334b141fe83dbb4488e46096e067c87,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a334b141fe83dbb4488e46096e067c87, type: 3}
