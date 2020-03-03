@@ -1190,7 +1190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6807569035361340410
 Transform:
   m_ObjectHideFlags: 0
@@ -1199,7 +1199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200959180133210376}
   m_LocalRotation: {x: 0, y: -0.978527, z: 0, w: 0.20611882}
-  m_LocalPosition: {x: 1.282, y: -1.94, z: 1.258}
+  m_LocalPosition: {x: 30, y: -1.94, z: 1.258}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3196659955022735776}
@@ -4847,7 +4847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2781801035407331016
 Transform:
   m_ObjectHideFlags: 0
@@ -4856,7 +4856,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7354513797271689626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.42, y: 0, z: -0.41}
+  m_LocalPosition: {x: 15, y: 0, z: -0.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1858452731456091094}
@@ -5758,7 +5758,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9bd45d3b9e38dd3489ab5663d860775d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.222
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9bd45d3b9e38dd3489ab5663d860775d,
         type: 3}
@@ -5825,11 +5825,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed_2 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9bd45d3b9e38dd3489ab5663d860775d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -673703092301266655, guid: 9bd45d3b9e38dd3489ab5663d860775d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5893,7 +5888,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: def3586248d3fae46acea861711e2e24,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.426
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: def3586248d3fae46acea861711e2e24,
         type: 3}
@@ -5960,11 +5955,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed_3 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: def3586248d3fae46acea861711e2e24,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3890507712662401466, guid: def3586248d3fae46acea861711e2e24,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6003,7 +5993,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: fcc95dd9b53d74d43a320f2eac26c963,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.23
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fcc95dd9b53d74d43a320f2eac26c963,
         type: 3}
@@ -6095,11 +6085,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: corner_sofa (2)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: fcc95dd9b53d74d43a320f2eac26c963,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -510135103182388278, guid: fcc95dd9b53d74d43a320f2eac26c963,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6153,7 +6138,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 215c3ec6bcff5404393e526cf11c0fea,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 215c3ec6bcff5404393e526cf11c0fea,
         type: 3}
@@ -6214,11 +6199,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sofa collection (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 215c3ec6bcff5404393e526cf11c0fea,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6993051982550269841, guid: 215c3ec6bcff5404393e526cf11c0fea,
         type: 3}
@@ -6644,10 +6624,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: ad3c945901cfb8b49b9cdcaf67d20083, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad3c945901cfb8b49b9cdcaf67d20083, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6871,7 +6847,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 215c3ec6bcff5404393e526cf11c0fea,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 215c3ec6bcff5404393e526cf11c0fea,
         type: 3}
@@ -6933,11 +6909,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sofa collection (1)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 215c3ec6bcff5404393e526cf11c0fea,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6993051982550269841, guid: 215c3ec6bcff5404393e526cf11c0fea,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6996,7 +6967,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: fcc95dd9b53d74d43a320f2eac26c963,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.23
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fcc95dd9b53d74d43a320f2eac26c963,
         type: 3}
@@ -7087,11 +7058,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: corner_sofa (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: fcc95dd9b53d74d43a320f2eac26c963,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -510135103182388278, guid: fcc95dd9b53d74d43a320f2eac26c963,
         type: 3}
