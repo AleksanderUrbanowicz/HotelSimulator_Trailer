@@ -2,6 +2,7 @@
 
 namespace DitzelGames.FastIK
 {
+    [ExecuteInEditMode]
     public class FastIKLook : MonoBehaviour
     {
         /// <summary>
