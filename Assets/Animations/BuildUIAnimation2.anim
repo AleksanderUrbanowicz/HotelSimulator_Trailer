@@ -138,8 +138,26 @@ AnimationClip:
       - serializedVersion: 3
         time: 2.0333333
         value: 156
-        inSlope: 427.7778
-        outSlope: 427.7778
+        inSlope: 757.1895
+        outSlope: 757.1895
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.4
+        value: 331.59485
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.6333334
+        value: 331.59485
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -254,7 +272,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.45
+        time: 2.4
         value: -270
         inSlope: 0
         outSlope: 0
@@ -263,7 +281,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.7333333
+        time: 2.6333334
         value: -270
         inSlope: 0
         outSlope: 0
@@ -1046,6 +1064,34 @@ AnimationClip:
     path: Content/ObjectsPanel/Scroll View/Viewport/Content/Image (11)/Image (3)
     classID: 1
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.93333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Content/Categories/Scroll View/Viewport/Content/ButtonTables/Image (2)
+    classID: 1
+    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -1124,6 +1170,60 @@ AnimationClip:
       value: {fileID: 21300000, guid: 0dcc0bd37642723428ec1953ecd64f76, type: 3}
     attribute: m_Sprite
     path: Content/ObjectDetailsPanel/CurrentObjectImage
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 9e3b7eaafa2061b4da57708a0d2c78d4, type: 3}
+    - time: 0.93333334
+      value: {fileID: 21300000, guid: 62965683f09c30d419785cea04b9964e, type: 3}
+    attribute: m_Sprite
+    path: Content/ObjectsPanel/Scroll View/Viewport/Content/RenderImage1
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: d80ea65e682a59b4eb659da700b5af32, type: 3}
+    - time: 0.93333334
+      value: {fileID: 21300000, guid: b84508edb9c299e4099c89420c54f1b7, type: 3}
+    attribute: m_Sprite
+    path: Content/ObjectsPanel/Scroll View/Viewport/Content/RenderImage2
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 0c041b6ce159cf645b7b260f459f6b06, type: 3}
+    - time: 0.93333334
+      value: {fileID: 21300000, guid: 21d9cc9c51d445941a8ae3bd8d6eb748, type: 3}
+    attribute: m_Sprite
+    path: Content/ObjectsPanel/Scroll View/Viewport/Content/RenderImage3
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 657859f53f2f07740aec748518634e7a, type: 3}
+    - time: 0.93333334
+      value: {fileID: 21300000, guid: 032380dc43d0d4c4aa3de3a863d42f7c, type: 3}
+    attribute: m_Sprite
+    path: Content/ObjectsPanel/Scroll View/Viewport/Content/RenderImage4
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 87d9ec62fc2f7114e9077c063a104ffc, type: 3}
+    - time: 0.93333334
+      value: {fileID: 21300000, guid: 0dcc0bd37642723428ec1953ecd64f76, type: 3}
+    attribute: m_Sprite
+    path: Content/ObjectsPanel/Scroll View/Viewport/Content/RenderImage5
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 9e3b7eaafa2061b4da57708a0d2c78d4, type: 3}
+    - time: 0.93333334
+      value: {fileID: 21300000, guid: 78ab3795d8d715742a83dd0296b5390c, type: 3}
+    attribute: m_Sprite
+    path: Content/ObjectsPanel/Scroll View/Viewport/Content/RenderImage6
     classID: 114
     script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_SampleRate: 60
@@ -1302,6 +1402,13 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 2790505987
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 2843572808
       attribute: 2015549526
       script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -1350,6 +1457,48 @@ AnimationClip:
       typeID: 114
       customType: 0
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 709793637
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3007825631
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3292591689
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1512334314
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 757289852
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3022652102
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: 9e3b7eaafa2061b4da57708a0d2c78d4, type: 3}
     - {fileID: 21300000, guid: 62965683f09c30d419785cea04b9964e, type: 3}
@@ -1373,6 +1522,18 @@ AnimationClip:
     - {fileID: 21300000, guid: 62965683f09c30d419785cea04b9964e, type: 3}
     - {fileID: 21300000, guid: 62965683f09c30d419785cea04b9964e, type: 3}
     - {fileID: 21300000, guid: 0dcc0bd37642723428ec1953ecd64f76, type: 3}
+    - {fileID: 21300000, guid: 9e3b7eaafa2061b4da57708a0d2c78d4, type: 3}
+    - {fileID: 21300000, guid: 62965683f09c30d419785cea04b9964e, type: 3}
+    - {fileID: 21300000, guid: d80ea65e682a59b4eb659da700b5af32, type: 3}
+    - {fileID: 21300000, guid: b84508edb9c299e4099c89420c54f1b7, type: 3}
+    - {fileID: 21300000, guid: 0c041b6ce159cf645b7b260f459f6b06, type: 3}
+    - {fileID: 21300000, guid: 21d9cc9c51d445941a8ae3bd8d6eb748, type: 3}
+    - {fileID: 21300000, guid: 657859f53f2f07740aec748518634e7a, type: 3}
+    - {fileID: 21300000, guid: 032380dc43d0d4c4aa3de3a863d42f7c, type: 3}
+    - {fileID: 21300000, guid: 87d9ec62fc2f7114e9077c063a104ffc, type: 3}
+    - {fileID: 21300000, guid: 0dcc0bd37642723428ec1953ecd64f76, type: 3}
+    - {fileID: 21300000, guid: 9e3b7eaafa2061b4da57708a0d2c78d4, type: 3}
+    - {fileID: 21300000, guid: 78ab3795d8d715742a83dd0296b5390c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -1472,8 +1633,26 @@ AnimationClip:
       - serializedVersion: 3
         time: 2.0333333
         value: 156
-        inSlope: 427.7778
-        outSlope: 427.7778
+        inSlope: 757.1895
+        outSlope: 757.1895
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.4
+        value: 331.59485
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.6333334
+        value: 331.59485
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -1588,7 +1767,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.45
+        time: 2.4
         value: -270
         inSlope: 0
         outSlope: 0
@@ -1597,7 +1776,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.7333333
+        time: 2.6333334
         value: -270
         inSlope: 0
         outSlope: 0
@@ -2517,6 +2696,34 @@ AnimationClip:
     attribute: m_LocalScale.z
     path: Content/ObjectDetailsPanel/CurrentObjectInfoPanel/Button
     classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.93333334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Content/Categories/Scroll View/Viewport/Content/ButtonTables/Image (2)
+    classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
